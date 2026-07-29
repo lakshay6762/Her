@@ -5,7 +5,7 @@
 const RELATIONSHIP_START_DATE = ("2023-12-08T00:00:00");
 
 // Background music file (place music.mp3 next to index.html)
-const MUSIC_SRC = "music.mp3";
+const MUSIC_SRC = "videoplayback.mp3";
 
 /* =========================================================
    UTILITIES
