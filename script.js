@@ -2,7 +2,7 @@
    CONFIG — the only two things you should need to edit
    ========================================================= */
 // Date & time the relationship started (used by the live counter). Format: YYYY-MM-DDTHH:MM:SS
-const RELATIONSHIP_START_DATE = "2022-02-14T00:00:00";
+const RELATIONSHIP_START_DATE = "2023-12-08T00:00:00";
 
 // Background music file (place music.mp3 next to index.html)
 const MUSIC_SRC = "music.mp3";
