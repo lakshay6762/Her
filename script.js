@@ -339,7 +339,7 @@ function hexToRgb(hex) {
 function initTypewriter() {
   const target = $("#typewriterText");
   const heading = $("#typewriterTitle");
-  const text = "Happy Birthday, My Love ❤️";
+  const text = "Happy Birthday, My Leechi ❤️";
   let started = false;
 
   const observer = new IntersectionObserver((entries) => {
