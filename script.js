@@ -157,7 +157,7 @@ function initFloatingHearts() {
 function initGiftBox() {
   const giftBox = $("#giftBox");
   const music = $("#bgMusic");
-  music.src = MUSIC_SRC;
+  music.src = "videoplayback.mp3";
   let opened = false;
 
   giftBox.addEventListener("click", () => {
