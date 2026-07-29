@@ -5,7 +5,7 @@
 const RELATIONSHIP_START_DATE = ("2023-12-08T00:00:00");
 
 // Background music file (place music.mp3 next to index.html)
-const MUSIC_SRC = "videoplayback.m4a";
+const MUSIC_SRC = "videoplayback.mp3";
 
 /* =========================================================
    UTILITIES
@@ -157,7 +157,7 @@ function initFloatingHearts() {
 function initGiftBox() {
   const giftBox = $("#giftBox");
   const music = $("#bgMusic");
-  music.src = "videoplayback.m4a";
+  music.src = "videoplayback.mp3";
   let opened = false;
 
   giftBox.addEventListener("click", () => {
@@ -179,7 +179,7 @@ function initGiftBox() {
 }
 
 function startMusic(music) {
-  music.volume = 0.55;
+  music.volume = 55;
   const playPromise = music.play();
   const toggle = $("#musicToggle");
   if (playPromise !== undefined) {
